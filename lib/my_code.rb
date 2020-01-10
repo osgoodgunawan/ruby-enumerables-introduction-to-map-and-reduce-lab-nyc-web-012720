@@ -1,7 +1,7 @@
 def map_to_negativize(source_array)
     final_array=[]
     i =0
-  while
+  while i<source_array.length do
     source_array.map(|arr| arr*-1)
 end
 

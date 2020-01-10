@@ -40,7 +40,7 @@ end
 
 
 def reduce_to_total(source_array, starting_point=0)
-  total=0
+  total=0 #or we can use total=starting_point but return should be just total
   counter=0
   while counter<source_array.size do 
     total=source_array[counter]+total

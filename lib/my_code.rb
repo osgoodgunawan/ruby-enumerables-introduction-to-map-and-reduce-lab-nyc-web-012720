@@ -50,7 +50,13 @@ def reduce_to_total(source_array, starting_point=0)
 end
 
 def reduce_to_all_true(source_array)
-  
+    total=0 #or we can use total=starting_point but return should be just total
+  counter=0
+  while counter<source_array.size do 
+    total=source_array[counter]+total
+    counter+=1
+  end
+   total+starting_point
 end
 
 def reduce_to_any_true(source_array)

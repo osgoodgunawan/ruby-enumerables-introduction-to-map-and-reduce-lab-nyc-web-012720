@@ -46,7 +46,7 @@ def reduce_to_total(source_array, starting_point)
     total =source_array[counter]+total
     counter+=1
   end
-  total+starting_point
+  return total+starting_point
 end
 
 def reduce_to_all_true(source_array)
